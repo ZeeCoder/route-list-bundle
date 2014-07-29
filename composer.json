@@ -1,0 +1,20 @@
+{
+    "name": "zeecoder/route-list-bundle",
+    "type": "library",
+    "keywords": [],
+    "homepage": "https://github.com/ZeeCoder/route-list-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hubert Viktor",
+            "email": "rpgmorpheus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "ZeeCoder\\Bundle\\RouteListBundle\\": "" }
+    },
+    "target-dir": "ZeeCoder/Bundle/RouteListBundle"
+}
