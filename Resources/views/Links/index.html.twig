@@ -1,0 +1,14 @@
+
+<h1>List of registered routes</h1>
+
+<h2>Urls</h2>
+<pre>
+    {{route_list}}
+</pre>
+
+<h2>The allowed hosts for this url are:</h2>
+<ul>
+    {% for host in allowed_hosts %}
+        <li>{{ host }}</li>
+    {% endfor %}
+</ul>

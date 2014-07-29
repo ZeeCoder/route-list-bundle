@@ -1,0 +1,7 @@
+
+zee_route_list.links:
+    resource: "@ZeeRouteListBundle/Controller/LinksController.php"
+    type: annotation
+    host: "{host}"
+    requirements:
+        host: "^(?:%zee_route_list.allowed_hosts%)$"

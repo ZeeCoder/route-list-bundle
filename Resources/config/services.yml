@@ -1,0 +1,7 @@
+parameters:
+#    zee_route_list.example.class: ZeeCoder\Bundle\RouteListBundle\Example
+
+services:
+#    zee_route_list.example:
+#        class: %zee_route_list.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
