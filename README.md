@@ -7,6 +7,7 @@ Usage
 -----
  - Install with composer,
  - Register in the AppKernel: `new ZeeCoder\Bundle\RouteListBundle\ZeeRouteListBundle(),`.
+ - Add the routing file (`@ZeeRouteListBundle/Resources/config/routing.yml`).
 
 The route can then be accessed through the `/links` route.
 
